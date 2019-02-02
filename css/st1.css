@@ -1,0 +1,43 @@
+body{
+    background-color:white;
+}
+
+
+li{
+	display:inline;
+	background-color:white;
+	color: black;
+  text-align: center;
+  text-indent: center;
+  text-emphasis: filled pink;
+  font-size:20px;
+  font-family: monospace;
+
+}
+
+h1{
+  text-transform: none;
+  text-decoration: none;
+  color: black;
+  font-size: 10;
+  font-family: monospace;
+  font-style:normal;
+  text-align: center;
+
+}
+a.current{
+  background-color: pink;
+  font-style:italic;
+  font-variant: small-caps;
+  text-transform: capitalize;
+  font-size:35px;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+
+
+}
+
+a.skip:focus{
+  background-color: pink;
+
+}
